@@ -32,10 +32,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  gap:5px;
 }
 
 #logo-section img{
-  height: 18vh;
+  height: 16vh;
 }
 
 #right-part {
@@ -43,13 +44,14 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-size: 2rem;
   font-family: sans-serif;
+  width: 65vw;
 }
 
 #text-area {
+  font-size: 1.7rem;
   font-weight: 700;
-  margin: 0 15vw 5vh 5vw;
+  margin: 0 10vw 5vh 5vw;
   display: flex;
   flex-direction: column;
   gap:5vh;
@@ -59,4 +61,53 @@
   background-color: white;
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.123);
   height: 40vh;
+  padding: 3vh 10vw 0 3vw;
+  display: flex;
+  flex-direction: column;
+  gap:5vh;
+}
+
+label {
+  float: left;
+  display: block;
+  position: relative;
+  width: 15vw;
+  margin-right: 5vw;
+  margin-bottom: 2vh;
+}
+
+input {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(224, 224, 224);
+  font-size: 1rem;
+  margin-top: 3px;
+  width: 15vw;
+}
+
+#submit-area {
+  margin-top: 5vh;
+  margin-left: 8vh;
+  font-size: 1.4rem;
+}
+
+#submit-area button{
+  background-color: #596D48;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 2vh 3vw;
+  font-size: 1.3rem;
+  margin-bottom: 2vh;
+}
+
+#submit-area button:hover {
+  background-color: #35412b;
+  cursor: pointer;
+}
+
+#submit-area a{
+  color: #596D48;
+  font-weight: bold;
+  text-decoration: none;
 }
