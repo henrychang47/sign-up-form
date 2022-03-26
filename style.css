@@ -132,3 +132,12 @@ input:focus {
   font-weight: bold;
   text-decoration: none;
 }
+
+input.error {
+  outline: auto;
+  outline-color: red;
+}
+
+.hide {
+  display: none;
+}
