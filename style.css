@@ -80,9 +80,14 @@ input {
   padding: 5px 10px;
   border-radius: 5px;
   border: 1px solid rgb(224, 224, 224);
-  font-size: 1rem;
+  font-size: 1.5rem;
   margin-top: 3px;
   width: 15vw;
+}
+
+input:focus {
+  outline-color: cornflowerblue;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.123);
 }
 
 #submit-area {

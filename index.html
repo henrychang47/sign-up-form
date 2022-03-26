@@ -30,29 +30,29 @@
       </div>
       <div id="form-area">
         <span style="font-weight: bold;font-size: 2rem;">Let's do this!</span>
-        <form action="#">
+        <form action="#" id="main-form">
           <label for="first-name">FIRST NAME
-            <input id="first-name" type="text">
+            <input id="first-name" type="text" required>
           </label>
           <label for="last-name">LAST NAME
-            <input id="last-name" type="text">
+            <input id="last-name" type="text" required>
           </label>
           <label for="email">EMAIL
-            <input id="email" type="email">
+            <input id="email" type="email" required>
           </label>
           <label for="phone-number">PHONE NUMBER
-            <input id="phone-number" type="text">
+            <input id="phone-number" type="text" required>
           </label>
           <label for="password">PASSWORD
-            <input id="password" type="password">
+            <input id="password" type="password" required>
           </label>
           <label for="confirm-password">CONFIRM PASSWORD
-            <input id="password" type="password">
+            <input id="confirm-password" type="password" required>
           </label>
         </form>
       </div>
       <div id="submit-area">
-        <button>CREATE ACCOUNT</button><br>
+        <button form="main-form">CREATE ACCOUNT</button><br>
         Already have an account? <a href="">Log in</a>
       </div>
     </div>
