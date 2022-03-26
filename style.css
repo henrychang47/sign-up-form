@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'odin-font';
+  src: url('./font/Norse-Bold.otf');
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#container {
+  display: flex;
+}
+
+#left-part {
+  font-family: 'odin-font';
+  font-size: 100px;
+  background-image: url('./img/background.avif');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: 100vh;
+  width: 35vw;
+}
+
+#logo-section {
+  background-color:rgba(0, 0, 0, 0.5);
+  font-size: 10vh;
+  height: 20vh;
+  position: relative;
+  top: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo-section img{
+  height: 18vh;
+}
+
+#right-part {
+  background-color: #f9fafb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 2rem;
+  font-family: sans-serif;
+}
+
+#text-area {
+  font-weight: 700;
+  margin: 0 15vw 5vh 5vw;
+  display: flex;
+  flex-direction: column;
+  gap:5vh;
+}
+
+#form-area {
+  background-color: white;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.123);
+  height: 40vh;
+}
